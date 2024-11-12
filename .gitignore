@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs/GalleryApp/v17
+/.vs
+/GalleryApp/.vs/GalleryApp/FileContentIndex
+/GalleryApp/.vs/GalleryApp/v17
+/GalleryApp/.vs/ProjectEvaluation
+/GalleryApp/.vs/GalleryApp/DesignTimeBuild
+/GalleryApp/GalleryApp/GalleryApp/obj
+/GalleryApp/GalleryApp/GalleryApp/bin/Debug/netstandard2.0
+/GalleryApp/GalleryApp/GalleryApp.Android/bin/Debug
+/GalleryApp/GalleryApp/GalleryApp.Android/obj
+/GalleryApp/GalleryApp/GalleryApp.iOS/obj
