@@ -70,8 +70,11 @@ namespace GalleryApp.Pages
 				await DisplayAlert(null, $"Please, select photo", "OK");
 				return;
 			}
-			await Task.Run(()=>PictureList.Remove(SelectedPicture));
-			await Task.Run(() => File.Delete(SelectedPicture.PicPath));
+			else
+			{
+				await Task.Run(() => File.Delete(SelectedPicture.PicPath));
+				await Task.Run(() => PictureList.Remove(SelectedPicture));
+			}
 		}
 		private async void MakePhoto(object sender, EventArgs e)
 		{
